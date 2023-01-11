@@ -45,15 +45,14 @@ a:hover{
 .goalpost{
     position: relative;
     left: 1000px;
-    top: 100px;
+    
+    bottom: 70px;
 }
 
 .player{
     position: relative;
-    bottom: 500px;
-    right: 400px;
-    transform: rotate(-60deg);
-    transition: transform 2s ease;
+    bottom: 200px;
+    right: 250px;
     
 }
 .ball{
@@ -61,10 +60,18 @@ a:hover{
     left: 250px;
     
     right: 0px;
-    bottom: 700px;
+    bottom: 800px;
 }
 
 .field:hover .player{
     
+    transform: rotate(10deg);
+    transform-origin: bottom right;
+    transition: transform .5s ease-out 1s;
+}
+
+.field:hover .ball{
+    translate: 800px;
+    transition: translate .5s ease-in 1.5s;
 }
    
