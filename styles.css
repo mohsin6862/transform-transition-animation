@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+   
+}
+.nav{
+    
+
+
+}
+
+ a{
+
+    text-decoration: none;
+    padding-left: 10px;
+    height:250px;
+    width:250px;
+    border: 1px solid ;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    border-radius: 5px;
+    padding: 2px 2px;
+    
+}
+a:hover{
+    background-color: aqua;
+    color: black;
+}
