@@ -1,77 +1,76 @@
-*{
+* {
     margin: 0;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     margin: 50px 100px;
-   
-}
-.nav{
-   
-    
-
 
 }
 
- a{
+.nav {}
+
+a {
 
     text-decoration: none;
     padding-left: 10px;
-  
-    border: 1px solid ;
+
+    border: 1px solid;
     font-size: 26px;
     font-weight: 700;
     color: aliceblue;
     background-color: darkgoldenrod;
     border-radius: 5px;
     padding: 2px 2px;
-    
+
 }
-a:hover{
+
+a:hover {
     background-color: aqua;
     color: black;
 }
 
-.field{
- width: 1400px;
- height: 700px;
- border: 1px solid;
- margin-left: 50px;
- background-color: chartreuse;
+.field {
+    width: 1400px;
+    height: 700px;
+    border: 1px solid;
+    margin-left: 50px;
+    background-color: chartreuse;
 
 }
-.goalpost{
+
+.goalpost {
     position: relative;
     left: 1000px;
-    
+
     bottom: 70px;
 }
 
-.player{
+.player {
     position: relative;
     bottom: 200px;
     right: 250px;
-    
-}
-.ball{
-    position: relative;
-    left: 250px;
-    
-    right: 0px;
-    bottom: 800px;
+
 }
 
-.field:hover .player{
-    
+.ball {
+    position: relative;
+
+
+    right: 70px;
+    bottom: 820px;
+    transform: scale(.5);
+}
+
+.field:hover .player {
+
     transform: rotate(10deg);
     transform-origin: bottom right;
     transition: transform .5s ease-out 1s;
 }
 
-.field:hover .ball{
+.field:hover .ball {
     translate: 800px;
     transition: translate .5s ease-in 1.5s;
 }
-   
