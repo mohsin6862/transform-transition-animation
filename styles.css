@@ -9,6 +9,7 @@
    
 }
 .nav{
+   
     
 
 
@@ -18,8 +19,7 @@
 
     text-decoration: none;
     padding-left: 10px;
-    height:250px;
-    width:250px;
+  
     border: 1px solid ;
     font-size: 26px;
     font-weight: 700;
@@ -33,3 +33,38 @@ a:hover{
     background-color: aqua;
     color: black;
 }
+
+.field{
+ width: 1400px;
+ height: 700px;
+ border: 1px solid;
+ margin-left: 50px;
+ background-color: chartreuse;
+
+}
+.goalpost{
+    position: relative;
+    left: 1000px;
+    top: 100px;
+}
+
+.player{
+    position: relative;
+    bottom: 500px;
+    right: 400px;
+    transform: rotate(-60deg);
+    transition: transform 2s ease;
+    
+}
+.ball{
+    position: relative;
+    left: 250px;
+    
+    right: 0px;
+    bottom: 700px;
+}
+
+.field:hover .player{
+    
+}
+   
